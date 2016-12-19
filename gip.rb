@@ -1,16 +1,16 @@
 class Gip < Formula
   desc 'CLI tool for displaying GitHub Issues and Pull requests'
   homepage 'https://github.com/moutend/gip'
-  version 'v0.1.0'
+  version 'v0.1.1'
 
   if Hardware::CPU.is_64_bit?
-    @@binname = 'gip_darwin_amd64_v0.1.0'
-    url 'https://github.com/moutend/gip/releases/download/v0.1.0/' << @@binname
-    sha256 'ea81393e1a9c8e7ae90711776c46b8bc7b77d459c98828e477f2ec1b57b563e7'
+    @@binname = 'gip_darwin_amd64_v0.1.1'
+    url 'https://github.com/moutend/gip/releases/download/v0.1.1/' << @@binname
+    sha256 '7696c0143c6a1acbc2692321a461229db19ade5f13c83512074747ac08dadfb6'
   else
-    @@binname = 'gip_darwin_386_v0.1.0'
-    url 'https://github.com/moutend/gip/releases/download/v0.1.0/' << @@binname
-    sha256 '6c5bdaba6aa089ae3da434f4fefeefdb7b08e58258f888d9d3675fadc94ded64'
+    @@binname = 'gip_darwin_386_v0.1.1'
+    url 'https://github.com/moutend/gip/releases/download/v0.1.1/' << @@binname
+    sha256 '294853725187c99592abfed4b9497a150fbd599cd81f6a6230b8917337e73a72'
   end
 
   def install
